@@ -1,0 +1,31 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.drop-zone {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  cursor: pointer;
+  margin: 20px auto;
+  width: 300px;
+  text-align: center;
+}
+
+.drop-zone p {
+  margin: 0;
+  font-size: 16px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.file-list {
+  margin-top: 20px;
+}
+
+.file-list ul {
+  list-style: none;
+  padding: 0;
+}
